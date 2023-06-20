@@ -1,3 +1,5 @@
-const Root = () => <div>Hello world!</div>;
+import Search from "../pages/Search";
+
+const Root = () => <Search />;
 
 export default Root;
