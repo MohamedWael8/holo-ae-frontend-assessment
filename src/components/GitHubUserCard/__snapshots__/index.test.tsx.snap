@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<a
+  className="sc-erFrCC PToJc"
+  data-github="hello"
+  href="https://github.com/hello"
+  target="_blank"
+>
+  <div
+    className="sc-erzdQh ifAKBa"
+  >
+    <img
+      className="sc-jknFwr bSCqBc"
+      src="https://avatars.githubusercontent.com/u/1836624?v=4"
+    />
+    <div
+      className="sc-eERUzQ eqHLFK"
+    >
+      <h3>
+        hello
+      </h3>
+      <p>
+        test bio
+      </p>
+    </div>
+  </div>
+  <span
+    className="sc-jxGwga fAKfrK"
+  >
+    Chicago, Il
+  </span>
+  <span
+    className="sc-jxGwga fAKfrK"
+  >
+    <span>
+      33
+    </span>
+  </span>
+  <span
+    className="sc-jxGwga fAKfrK"
+  >
+    <span>
+      2
+    </span>
+  </span>
+</a>
+`;
