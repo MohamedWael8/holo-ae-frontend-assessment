@@ -16,7 +16,6 @@ export const searchGithHub = async ({
   setIsLoading,
 }: searchGithHubType) => {
   try {
-    console.log("cachedSearch", cachedSearch);
     setIsLoading(true);
     if (
       query === cachedSearch?.userSlice?.query &&
@@ -30,7 +29,9 @@ export const searchGithHub = async ({
           ? await gitHubDataService.searchUsers(query)
           : await gitHubDataService.searchRepositories(query);
       setResults(response?.data?.items);
+      console.log("response?.data?.items", response?.data?.items);
     }
+
     setIsLoading(false);
   } catch (err) {
     console.log(err);

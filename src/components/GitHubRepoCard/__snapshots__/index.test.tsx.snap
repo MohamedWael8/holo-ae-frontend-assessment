@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<a
+  className="sc-erFrCC hKWUfb"
+  data-github="phonegap/phonegap-start"
+  href="https://github.com/phonegap/phonegap-start"
+  target="_blank"
+>
+  <h3>
+    phonegap
+    /
+    phonegap-start
+  </h3>
+  <p>
+    PhoneGap Hello World app
+  </p>
+  <span
+    className="sc-eERUzQ cAMBAO"
+  >
+    <span
+      className="sc-jknFwr ecVhnW"
+    >
+      ●
+    </span>
+    JavaScript
+  </span>
+  <span
+    className="sc-eERUzQ cAMBAO"
+  >
+    <span>
+      3414
+    </span>
+  </span>
+  <span
+    className="sc-eERUzQ cAMBAO"
+  >
+    <span>
+      6594
+    </span>
+  </span>
+</a>
+`;
