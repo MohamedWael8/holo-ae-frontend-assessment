@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const HeaderTitleContainer = styled.div`
   display: flex;
   flex-direction: row;
+  margin-bottom: 1rem;
 `;
 export const HeaderTitleIcon = styled.img``;
 export const HeaderTitleTitlesContainer = styled.div`

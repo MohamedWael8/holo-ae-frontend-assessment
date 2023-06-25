@@ -8,7 +8,7 @@ type TextMatches = {
   matches: Array<Match>;
 };
 
-type Item = {
+export type IGitHubUserItem = {
   login: string;
   id: number;
   node_id: string;
@@ -29,7 +29,7 @@ type Item = {
   events_url: string;
   public_repos?: number;
   public_gists?: number;
-  followers?: number;
+  followers: number;
   following?: number;
   created_at?: string;
   updated_at?: string;
@@ -48,7 +48,7 @@ type Item = {
 export interface IGitHubUserData {
   total_count: number;
   incomplete_results: boolean;
-  items: Array<Item>;
+  items: Array<IGitHubUserItem>;
 }
 
 export interface IGitHubRepositoriesData {

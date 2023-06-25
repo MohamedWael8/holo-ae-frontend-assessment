@@ -7,7 +7,7 @@ import {
 } from "./styles";
 
 type HeaderTitleProps = {
-  icon: string; //Change to icon
+  icon: string;
   title: string;
   subtitle: string;
 };
