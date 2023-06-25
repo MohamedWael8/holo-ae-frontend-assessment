@@ -5,14 +5,12 @@ import {
 } from "../types/github.types";
 
 class GitHubDataService {
-  searchRepositories(name: string) {
-    return http.get<Array<IGitHubRepositoriesData>>(
-      `/search/repositories?q=${name}`
-    );
+  searchRepositories(query: string) {
+    return http.get<IGitHubRepositoriesData>(`/search/repositories?q=${query}`);
   }
 
-  searchUsers(name: string) {
-    return http.get<Array<IGitHubUserData>>(`/search/users?q=${name}`);
+  searchUsers(query: string) {
+    return http.get<IGitHubUserData>(`/search/users?q=${query}`);
   }
 }
 
